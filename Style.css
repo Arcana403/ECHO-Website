@@ -1,0 +1,257 @@
+body{
+	background-image: url(Background2.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+#header{
+	opacity:0.87;
+	height:22.8%;
+	background-color:white;
+	width:100%;
+	position:absolute;
+	top:0%;
+	left:0%;
+	text-align:center;
+}
+#header h1{
+	margin-top:60px;
+	font-size:50px;
+	font-family:Designer Block;
+}
+#header img#PisayLogo{
+	margin:20px;
+	height:124px;
+	width:124px;
+	position:absolute;
+	top:-10px;
+	left:1200px;
+}
+#header img#logo{
+	margin:20px;
+	height:150px;
+	width:150px;
+	position:absolute;
+	top:-17px;
+	left:-26px;
+}
+#header li{
+	transition: border 1s ease-in-out, color .75s ease-in-out;
+}
+#header li:hover{
+	color: rgb(124,161,198);
+	border: 8px solid black;
+}
+#header ul a{
+	opacity: 1;
+}
+#nav{
+	position:absolute;
+	top:-10.8%;
+	left:11.5%;
+	background-color:#000066;
+	width:1000px;
+	border-radius:10px;
+	text-align:center;
+}
+#nav li{
+	list-style:none;
+	display:inline;
+	font-size:30px;
+	font-weight:bold;
+	margin-left:10px;
+	margin-right:10px;
+	padding-left:40px;
+	padding-right:40px;
+	border-left: black 1px solid;
+	border-right:black 1px solid;
+	background-color:#C7CDD3;
+}
+#nav a{
+	text-decoration:none;
+	color:black;
+}
+#welcomePage{
+	opacity:0.85;
+	position:absolute;
+	left:133px;
+	top:150px;
+	margin-top:0%;
+	width:1100px;
+	height:470px;
+	background-color:silver;
+	text-align:center;
+	font-family:dotty;
+	transition: all 0.9s ease-in-out;
+}
+#welcomePage p#advertising{
+	font-size:25px;
+	font-family: Xirod;
+}
+#welcomePage p{
+	margin:30px;
+	font-size: 30px;
+}
+#Home{
+	opacity:0.85;
+	position:absolute;
+	left:133px;
+	top:150px;
+	margin-top:-1000%;
+	width:1100px;
+	height:470px;
+	background-color:silver;
+	text-align:center;
+	font-family:dotty;
+	transition: all 0.9s ease-in-out;
+}
+#Home:target{
+	margin-top:0%;
+}
+#Home p#advertising{
+	font-size:25px;
+	font-family: Xirod;
+}
+#Home p{
+	margin:30px;
+	font-size: 30px;
+}
+#Activities{
+	opacity:0.85;
+	position:absolute;
+	left:133px;
+	top:150px;
+	margin-left:-1000%;
+	width:1100px;
+	height:470px;
+	background-color:silver;
+	text-align:center;
+	transition: all 0.9s ease-in-out;
+}
+#Activities:target{
+	margin-left:0%;
+}
+#Activities b{
+	font-size:35px;
+	font-family:dotty;
+}
+#Activities p{
+	font-size:18px;
+	font-family:Xirod;
+}
+button{
+	background-color:#000066;
+	border-radius:10px;
+	border:1px #000066 solid;
+	color:white;
+	font-size:30px;
+	font-family:dotty;
+}
+#Gallery{
+	opacity:1;
+	position:absolute;
+	left:133px;
+	top:150px;
+	margin-left:-1000%;
+	width:1100px;
+	height:470px;
+	background-color:silver;
+	text-align:center;
+	transition: all 0.9s ease-in-out;
+}
+#Gallery:target{
+	margin-left:0%;
+}
+#Gallery #slide{
+	width:55%;
+	position: absolute;
+	top: 5%;
+	left: 20%;
+	opacity: 1;
+}
+#Gallery #next{
+	position: absolute;
+	top: 40%;
+	left: 75.5%;
+	z-index: 2;
+}
+#Gallery #prev{
+	position: absolute;
+	top: 40%;
+	left: 13.5%;
+	z-index: 2;
+}
+#Membership{
+	opacity:0.85;
+	position:absolute;
+	left:133px;
+	top:150px;
+	margin-top:-1000%;
+	width:1100px;
+	height:470px;
+	background-color:silver;
+	text-align:center;
+	transition: all 0.9s ease-in-out;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+#Membership:target{
+	margin-top:0%;
+}
+#Membership b{
+	font-family:Xirod;
+	font-size:30px;
+}
+#Membership p{
+	margin-left:5%;
+	margin-right:5%;
+	font-family:dotty;
+	font-size:30px;
+}
+#About{
+	opacity:0.85;
+	position:absolute;
+	left:133px;
+	top:150px;
+	margin-left:-1000%;
+	width:1100px;
+	height:470px;
+	background-color:silver;
+	text-align:left;
+	transition: all 0.9s ease-in-out;
+	overflow-x: hidden;
+	overflow-y:scroll;
+}
+#About:target{
+	margin-left:0%;
+}
+#About h2{
+	text-align:center;
+}
+#About p{
+	padding-left: 3%;
+}
+
+@font-face{
+	font-family: Designer Block;
+	src: url("fonts/DESIB___.ttf");
+}
+@font-face{
+	font-family: Xirod;
+	src: url("fonts/xirod.ttf");
+}
+@font-face{
+	font-family: Dotty;
+	src: url("fonts/dotty.ttf");
+}
+#extra{
+	font-size:20px;
+	background-color:black;
+	color:white;
+	height:30px;
+	width:100%;
+	position:absolute;
+	bottom:-3%;
+	left:0%;
+	font-style: italic;
+	padding-top: 8px;
+}
